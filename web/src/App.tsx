@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
 
+import Routes from './routes';
+
+//JSX: XML sintax inside javascript 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>
-          Noice
-        </h1>
-      </header>
-    </div>
+    //using enmet extension to write html
+    <Routes />
   );
 }
 
